@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Education" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD3FblOKaiAWE0vUtSxj996P9kL0EXiFLM&v=3.exp&libraries=geometry,drawing,places'>
+</script>
+  <title>Vizon</title>
+<link href="/app/styles/vendors~client.css" rel="stylesheet"><link href="/app/styles/client.css" rel="stylesheet"></head>
+<body class="page-body">
+  <div id="load">
+    <div class="loading">
+      <div class="loading-text">
+        <span class="loading-text-words">L</span>
+        <span class="loading-text-words">O</span>
+        <span class="loading-text-words">A</span>
+        <span class="loading-text-words">D</span>
+        <span class="loading-text-words">I</span>
+        <span class="loading-text-words">N</span>
+        <span class="loading-text-words">G</span>
+      </div>
+    </div>
+  </div>
+    <section id="index"></section>
+     <script type="text/javascript">
+      document.onreadystatechange = function () {
+      var state = document.readyState
+      if (state == 'interactive') {
+           document.getElementById('index').style.display="none";
+      } else if (state == 'complete') {
+          setTimeout(function(){
+             //document.getElementById('interactive');
+             document.getElementById('load').style.display="none";
+             document.getElementById('index').style.display="block";
+          },1000);
+      }
+    }
+    </script>
+<script type="text/javascript" src="/app/vendors~client.be0a9085292e68aaef96.bundle.js"></script><script type="text/javascript" src="/app/client.4fbf0d58b9f6a49b60f7.bundle.js"></script></body>
+</html>

@@ -1,0 +1,36 @@
+/**
+ * vehicleAssignmentConstants
+ *
+ * @package                Vizon
+ * @subpackage             Vehicle assignment Constants
+ * @category               Constants
+ * @DateOfCreation         29 July 2018
+ * @ShortDescription       This is responsible for Vehicle Constants action names
+ */
+export const vehicleAssignmentConstants = {
+    
+   	// Fetch Action Constants
+    VEHICLE_ASSIGN_FETCH_REQUEST     : 'VEHICLE_ASSIGN_FETCH_REQUEST',
+    VEHICLE_ASSIGN_FETCH_SUCCESS     : 'VEHICLE_ASSIGN_FETCH_SUCCESS',
+    VEHICLE_ASSIGN_FETCH_FAILURE     : 'VEHICLE_ASSIGN_FETCH_FAILURE',
+    
+    // Add Action Constants
+    VEHICLE_ASSIGN_SAVE_REQUEST    : 'VEHICLE_ASSIGN_SAVE_REQUEST',
+    VEHICLE_ASSIGN_SAVE_SUCCESS    : 'VEHICLE_ASSIGN_SAVE_SUCCESS',
+    VEHICLE_ASSIGN_SAVE_FAILURE    : 'VEHICLE_ASSIGN_SAVE_FAILURE',
+
+    // Delete action constants
+    VEHICLE_ASSIGN_DELETE_REQUEST    : 'VEHICLE_ASSIGN_DELETE_REQUEST',
+    VEHICLE_ASSIGN_DELETE_SUCCESS    : 'VEHICLE_ASSIGN_DELETE_SUCCESS',
+    VEHICLE_ASSIGN_DELETE_FAILURE    : 'VEHICLE_ASSIGN_DELETE_FAILURE',
+    
+    // Reset State
+    VEHICLE_ASSIGN_RESET_STATE     : 'VEHICLE_ASSIGN_RESET_STATE',
+    VEHICLE_ASSIGN_UPDATE_STATE    : 'VEHICLE_ASSIGN_UPDATE_STATE',
+
+    // Delete
+    VEHICLE_ASSIGN_DELETE_REQUEST : 'VEHICLE_ASSIGN_DELETE_REQUEST',
+    VEHICLE_ASSIGN_DELETE_SUCCESS : 'VEHICLE_ASSIGN_DELETE_SUCCESS',
+    VEHICLE_ASSIGN_DELETE_FAILURE : 'VEHICLE_ASSIGN_DELETE_FAILURE',
+
+};
